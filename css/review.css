@@ -1,0 +1,42 @@
+main{
+    background: url(../img/back/review_back.png) center/cover no-repeat;
+}
+.main_wrapper{
+    min-height: 1080px;
+    margin: 70px 0;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+.block img{
+    margin: 40px;
+}
+.text{
+    background-color:  #F8FAF8;
+    padding: 70px;
+}
+.text p{
+    font-size: 24px;
+    color: #000;
+}
+@media (max-width:1440px) {
+    .block{
+        flex-direction: column;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:1024px) {
+
+}
+@media (max-width:768px) {
+
+}
+@media (max-width:425px) {
+
+}
